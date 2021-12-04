@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-size: 62.5%;
+    font-family: "sans-serif" , Arial;
+}
+.title-h1
+{
+    font-size: 2.3rem;
+    padding: 1rem;
+}
+legend{
+    font-size: 1.6rem;
+    border: 1px solid #696868;
+    padding: 1rem;
+    background-color: #2b57ad;
+    color: #fff;
+}
+
+label{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.errors{
+    color:#fff;
+    background-color: #b91818;
+    padding: 1rem;
+    font-size: 1.6rem;
+
+}
+fieldset{
+    padding: 2rem;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    place-items: center;
+    place-content: center;
+}
+input[type="text"],input[type="number"],select,select *{
+    font-size: 1.2rem;
+    width: 10rem;
+    min-width: 90%;
+    height: 2rem;
+    border: 0.1rem solid #5b585b;
+    border-radius: 0.3rem;
+}
+
+select *{
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+.small-error{
+    align-self: flex-start;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+.btn{
+    margin: 1.2rem 0;
+    padding: 1rem 3rem;
+    color: white;
+    background-color: #72bd6f;
+    outline: none;
+    border: 0.1rem hidden #444;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.btn:hover{
+    background-color: #518f4f;
+    transform: scale(1.1);
+}
