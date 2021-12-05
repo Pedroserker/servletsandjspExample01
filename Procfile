@@ -1,1 +1,1 @@
-web: sh target/bin/webapp
+web: sh target/webapp-form-tarea2.war
