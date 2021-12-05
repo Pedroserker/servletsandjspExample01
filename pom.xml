@@ -38,7 +38,7 @@
                     <execution>
                         <id>copy-dependencies</id>
                         <phase>package</phase>
-                        <goals><goal>copy-dependencies</goal></goals>
+                        <goals><goal>unpack</goal></goals>
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
